@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "web-programming-laboratories-0"
+version = "0.1.0"
+description = ""
+authors = ["Danil Sidoruk <danilsidoruknv@yandex.ru>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+task0 = 'web_programming_laboratories_0.task0:main'
+task1 = 'web_programming_laboratories_0.task1:main'
+task2 = 'web_programming_laboratories_0.task2:main'
+task3 = 'web_programming_laboratories_0.task3:main'
+task4 = 'web_programming_laboratories_0.task4:main'
+task5 = 'web_programming_laboratories_0.task5:main'
+extras_task1 = 'web_programming_laboratories_0.extras.task1:main'
+extras_task2 = 'web_programming_laboratories_0.extras.task2:main'
+extras_task3 = 'web_programming_laboratories_0.extras.task3:main'
+extras_task4 = 'web_programming_laboratories_0.extras.task4:main'
